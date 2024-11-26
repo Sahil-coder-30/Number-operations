@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Operations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Operations</h1>
+        <select id="operation">
+            <option value="table">1. Table</option>
+            <option value="square">2. Square</option>
+            <option value="cube">3. Cube</option>
+            <option value="factorial">4. Factorial</option>
+            <option value="sqrt">5. Square Root</option>
+            <option value="prime">6. Prime</option>
+            <option value="armstrong">7. Armstrong Number</option>
+            <option value="reverse">8. Reverse Digits</option>
+            <option value="fibonacci">9. Fibonacci Series</option>
+            <option value="lcm">10. LCM</option>
+            <option value="digits">11. Reverse Digits in Array</option>
+            <option value="quadratic">12. Quadratic Equation Roots</option>
+        </select>
+        <div id="inputs">
+            <input type="number" id="input1" placeholder="Enter the number" />
+            <input type="number" id="input2" placeholder="Second input (if required)" style="display: none;" />
+        </div>
+        <button onclick="performOperation()">Perform Operation</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
